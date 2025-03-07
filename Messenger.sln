@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8FDC24E-FD05-4CBF-9EEA-D050DA08F602}"
 EndProject
@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7A8B7CA7-A5FB-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.API", "src\API\Messenger.API\Messenger.API.csproj", "{AF881153-BEF1-4B1D-9F8B-B7199148325E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Application", "src\Core\Messenger.Application\Messenger.Application.csproj", "{BD3503AE-BAC2-464A-914A-0B4AD63C517A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Domain", "src\Core\Messenger.Domain\Messenger.Domain.csproj", "{8325610F-CBDB-4158-AB61-02743DB06C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{AF881153-BEF1-4B1D-9F8B-B7199148325E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF881153-BEF1-4B1D-9F8B-B7199148325E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF881153-BEF1-4B1D-9F8B-B7199148325E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3503AE-BAC2-464A-914A-0B4AD63C517A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3503AE-BAC2-464A-914A-0B4AD63C517A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3503AE-BAC2-464A-914A-0B4AD63C517A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3503AE-BAC2-464A-914A-0B4AD63C517A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8325610F-CBDB-4158-AB61-02743DB06C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8325610F-CBDB-4158-AB61-02743DB06C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8325610F-CBDB-4158-AB61-02743DB06C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8325610F-CBDB-4158-AB61-02743DB06C19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +49,10 @@ Global
 		{F35AC3B7-0D70-4AFC-A231-C9768F5ECBD0} = {C8FDC24E-FD05-4CBF-9EEA-D050DA08F602}
 		{7A8B7CA7-A5FB-4A70-9389-B213BC565CC6} = {C8FDC24E-FD05-4CBF-9EEA-D050DA08F602}
 		{AF881153-BEF1-4B1D-9F8B-B7199148325E} = {C20C249E-078F-4CE1-80CA-0185C050CB1A}
+		{BD3503AE-BAC2-464A-914A-0B4AD63C517A} = {9082A39D-81D5-49C5-974A-E068B75FAAA9}
+		{8325610F-CBDB-4158-AB61-02743DB06C19} = {9082A39D-81D5-49C5-974A-E068B75FAAA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F3FC83-24C0-4D59-81DA-60EDDD6621CE}
 	EndGlobalSection
 EndGlobal
