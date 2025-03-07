@@ -1,3 +1,5 @@
+using Messenger.API;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddSignalR();
 builder.Services.AddDataProtection();
 var app = builder.Build();
 
@@ -18,12 +21,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-var webSocketOptions = new WebSocketOptions
-{
-    KeepAliveInterval = TimeSpan.FromMinutes(2)
-};
 
-app.UseWebSockets(webSocketOptions);
 app.MapControllers();
+
 
 app.Run();
