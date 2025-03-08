@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Application", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Domain", "src\Core\Messenger.Domain\Messenger.Domain.csproj", "{8325610F-CBDB-4158-AB61-02743DB06C19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Persistance", "src\Infrastructure\Messenger.Persistance\Messenger.Persistance.csproj", "{72E57A2F-930C-444F-973B-D22134AACDCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8325610F-CBDB-4158-AB61-02743DB06C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8325610F-CBDB-4158-AB61-02743DB06C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8325610F-CBDB-4158-AB61-02743DB06C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E57A2F-930C-444F-973B-D22134AACDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E57A2F-930C-444F-973B-D22134AACDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E57A2F-930C-444F-973B-D22134AACDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E57A2F-930C-444F-973B-D22134AACDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{AF881153-BEF1-4B1D-9F8B-B7199148325E} = {C20C249E-078F-4CE1-80CA-0185C050CB1A}
 		{BD3503AE-BAC2-464A-914A-0B4AD63C517A} = {9082A39D-81D5-49C5-974A-E068B75FAAA9}
 		{8325610F-CBDB-4158-AB61-02743DB06C19} = {9082A39D-81D5-49C5-974A-E068B75FAAA9}
+		{72E57A2F-930C-444F-973B-D22134AACDCC} = {F35AC3B7-0D70-4AFC-A231-C9768F5ECBD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70F3FC83-24C0-4D59-81DA-60EDDD6621CE}
