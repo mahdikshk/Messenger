@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Messenger.API.Controllers
@@ -7,5 +8,10 @@ namespace Messenger.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        [HttpGet("Login")]
+        public async Task<IActionResult> Login(LoginRequest request,CancellationToken cancellationToken)
+        {
+            return Ok();
+        }
     }
 }
