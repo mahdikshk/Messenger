@@ -1,4 +1,5 @@
 using Messenger.API;
+using Messenger.API.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,5 +25,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapHub<ChatHub>("/chat");
 
 app.Run();
